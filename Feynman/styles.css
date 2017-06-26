@@ -1,0 +1,98 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0px;
+	padding: 0px;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+html {
+  font-family: PTSans, Arial, sans-serif;
+  background: rgb(225,238,253) url(images/bg_page.png) repeat;
+}
+
+.main {
+  width: 740px;
+  margin: 0 auto;
+  /*padding: 0 10px;*/
+  border: 4px solid white;
+}
+
+body{
+	background-color: rgb(255,255,255);
+	border: 3px solid rgb(75,75,75);
+	box-shadow: 0 0 15px 5px rgba(44,82,100,.75);
+	max-width: 760px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 0;
+}
+
+figure img {
+  border: 1px solid #666;
+  background-color: #FFF;
+  padding: 4px;
+  box-shadow: 2px 2px 4px rgba(0,0,0,.5);
+  align-content: center;
+  margin-top: 10px;
+}
+
+figure {
+  display: inline-block;
+  vertical-align: top;
+  align-content: center;
+  width: 210px;
+  margin: 0 10px 10px 10px;
+}
+
+
+
+h1 {
+	font-size: 36px;
+	color: rgb(249,107,24);
+}
+
+h2 {
+	font-size: 18px;
+	color: rgb(249,107,24);
+	margin-top: 20px;
+	margin-right: 5px;
+	margin-bottom: 30px;
+	padding-top: 5px;
+	border-top: 2px dotted rgb(141,165,22);
+	overflow: hidden;
+	
+}
+
+p {
+	font-size: 14px;
+	line-height: 150%;
+	margin-bottom: 10px;
+	margin-left: 150px;
+	margin-right: 50px;
+	
+}
+
+p.caption{
+    margin-left: 10px;
+	max-width: 235px;
+	font-size: 12px;
+}
+
+.author{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12px;
+	font-style: normal;
+	align-content: center;
+	margin-top: 50px;
+}
